@@ -1,0 +1,420 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Campton Light';
+    src: url('Campton-Light.eot');
+    src: url('Campton-Light.eot?#iefix') format('embedded-opentype'),
+    url('Campton-Light.woff') format('woff'),
+    url('Campton-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Campton Bold';
+    src: url('Campton-Bold.eot');
+    src: url('Campton-Bold.eot?#iefix') format('embedded-opentype'),
+    url('Campton-Bold.woff') format('woff'),
+    url('Campton-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    }
+
+
+@mixin CamBoldFont {
+    font-family: 'Campton Bold', sans-serif;
+}
+@mixin CamLightFont {
+    font-family: 'Campton Light', sans-serif;
+}
+
+@mixin OldStdTTFont {
+    font-family: "Old Standart TT", serif;
+}
+
+@mixin button {
+    display: block;
+                    font-size: 20px;
+                    color: #fff;
+                    text-align: center;
+                    text-decoration: none;
+                    padding: 3px 7px;
+                    width: 130px;
+                    border: 3px solid #ffe18f;
+                    &:hover {
+                        color: rgb(0, 0, 0);
+                        
+                        transition: 0.3s;
+                        border: 3px solid rgb(236, 148, 34);
+                    }
+}
+
+@mixin button_1 {
+    display: block;
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 1.1px;
+            color: #3d3c4a;
+            background-color: #ffe18e;
+            border: 3px solid #ffe18e;
+            width: 93px;
+            padding: 3px 10px;
+            margin: 0 auto;
+}
+
+body {
+    background-color: #3e3b4a;
+}
+
+// Обнуление отступов заголовков
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+//Заголовок
+.header {
+    margin-top: 70px;
+
+    &-menu {
+        &-icon {
+            height: 21px;
+            &-block {
+                background-color: #898691;
+                width: 22px;
+                height: 3px;
+            }
+        }
+        &-text {
+            @include CamBoldFont();
+            color: #898691;
+            font-size: 12px;
+            // font-weight: bold;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-left: 10px;
+        }
+    }
+    &-main-text {
+        &-logo {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 48px;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 0;
+        }
+        &-desc {
+            @include OldStdTTFont();
+            font-weight: 400;
+            font-size: 13px;
+            color: #898691;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+    }
+    &-search {
+        
+        &-text {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #898691;
+            margin-left: 50%;
+        }
+        &-logo {
+            margin-left: 10px;
+        }
+    }
+}
+
+.main-1 {
+    &-content {
+        padding-bottom: 40px;
+        margin: 75px auto 20px;
+        height: 520px;
+        background: url("/img/shape.png") 0 0 no-repeat;
+        background-size: cover;
+        &-text {
+            margin-left: 40px;
+            h3 {
+                @include CamBoldFont();
+                // font-weight: bold;
+                font-size: 13px;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                color: #ffc7b0;
+                margin-top: 40px;
+            }
+            h1 {
+                @include CamBoldFont();
+                // font-weight: bold;
+                font-size: 72px;
+                text-transform: capitalize;
+                color: #fff;
+                line-height: 75px;
+
+                margin-bottom: 15px;
+            }
+            p {
+                @include CamLightFont();
+                // font-weight: normal;
+                font-size: 36px;
+                line-height: 45px;
+                color: #fff;
+                margin-bottom: 75px;
+            }
+            a {
+                    @include button();
+                    @include CamBoldFont();
+                   
+            }
+        }
+    }
+}
+
+.main-2 {
+    .row {
+    height: 485px;
+    margin-bottom: 20px;
+
+    }
+    &-left {
+        background: url(/img/shape-2.png) 0 0 no-repeat;
+        background-size: 97% 100%;
+        padding-bottom: 40px;
+        
+        &-text {
+            margin-left: 40px;
+            h2 {
+                @include CamBoldFont();
+                // font-weight: 900;
+                font-size: 48px;
+                color: #fff;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            h3 {
+                @include CamBoldFont();
+                // font-weight: bold;
+                font-size: 14px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #ffc7b0;
+                margin-top: 35px;
+            }
+            p {
+                @include CamLightFont();
+                // font-weight: lighter;
+                font-size: 24px;
+                color: #fff;
+                margin-bottom: 200px;
+                line-height: 28px;
+            }
+            a {
+                @include button();
+                @include CamBoldFont();
+                
+                    
+                
+            }
+        }
+    }
+
+    &-right {
+        background-color: #eb7b61;
+        
+        h2 {
+            @include OldStdTTFont();
+            font-weight: 700;
+            font-size: 48px;
+            font-stretch: condensed;
+            text-transform: capitalize;
+            color: #fff;
+            text-align: center;
+            margin-top: 77px;
+        }
+        .par-1 {
+            @include CamLightFont();
+            // font-weight: normal;
+            font-size: 24px;
+            color: #fff;
+            text-align: center;
+            line-height: 1.2;
+            letter-spacing: 0.9px;
+        }
+        .btn-email {
+                display: block;
+                @include CamBoldFont();
+                // font-weight: bold;
+                font-size: 20px;
+                color: #ffd9d1;
+                text-align: center;
+                width: 285px;
+                text-decoration: none;
+                margin: 40px auto 20px;
+                
+                border: 3px solid #ffd9d1;
+            
+        }
+        .btn-sub {
+                display: block;
+                @include CamBoldFont();
+                
+                font-size: 20px;
+                color: #ffffff;
+                text-align: center;
+                width: 285px;
+                text-decoration: none;
+                background-color: #66689c;
+                border: 3px solid #66689c;
+                padding: 10px 87px;
+                margin: 0px auto 30px;
+        }
+        .par-2 {
+            @include CamLightFont();
+            // font-weight: lighter;
+            font-style: 14px;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
+
+.main-3 {
+    .row {
+        height: 420px;
+        margin-bottom: 55px;
+    }
+    .main-3-left {
+        background: url(/img/shape-3.png) 0 0 no-repeat;
+        background-size: 95% 100%;
+        h3 {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 14px;
+            color: #ffc7b0;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 1.5px;
+            margin-top: 30px;
+            margin-bottom: 140px; 
+        }
+        h2 {
+            @include CamBoldFont(); 
+            // font-weight: bold;
+            font-size: 36px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 114px;
+        }
+        a {
+            @include button_1();
+            @include CamBoldFont();
+          
+
+        }
+
+    }
+
+    .main-3-center {
+        background: url(/img/shape-4.png) 0 0 no-repeat;
+        background-size: 95% 100%;
+        h3 {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 14px;
+            color: #ffc7b0;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 1.5px;
+            margin-top: 30px;
+            margin-bottom: 125px;
+        }
+        h2 {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 36px;
+            line-height: 40px;
+            color: #ffffff;
+            text-align: center;
+            margin-bottom: 92px;
+        }
+        a {
+            @include button_1();
+            @include CamBoldFont();
+            
+
+        }
+
+    }
+
+    .main-3-right {
+        background: url(/img/shape-5.png) 0 0 no-repeat;
+        background-size: 100% 100%;
+        padding-left: 77px;
+        h3 {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 14px;
+            color: #ffc7b0;
+            text-transform: uppercase;
+            text-align: left;
+            letter-spacing: 1.5px;
+            margin-top: 30px;
+            margin-bottom: 13px;
+            }
+        h2 {
+            @include CamBoldFont();
+            // font-weight: bold;
+            font-size: 36px;
+            color: #ffffff;
+            text-align: left;
+            margin-bottom: 15px;
+        }
+        p {
+            @include CamBoldFont();
+            // font-weight: lighter;
+            font-size: 20px;
+            line-height: 24px;
+            color: #ffffff;
+            letter-spacing: 1.5px;
+            margin-bottom: 178px;
+        }
+        a {
+            @include button();
+            @include CamBoldFont();
+           
+        }
+
+       
+    }
+}
+
+.footer {
+    .row {
+        margin-bottom: 30px;
+    }
+    &-left {
+        @include CamLightFont();
+        // font-weight: normal;
+        font-size: 14px;
+        letter-spacing: 1.1px;
+        color: #898691;
+
+    }
+    &-right {
+        .twitter-logo {
+            margin-left: 20px;
+        }
+    }
+}

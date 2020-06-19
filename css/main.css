@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap");
+@font-face {
+  font-family: 'Campton Light';
+  src: url("Campton-Light.eot");
+  src: url("Campton-Light.eot?#iefix") format("embedded-opentype"), url("Campton-Light.woff") format("woff"), url("Campton-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Campton Bold';
+  src: url("Campton-Bold.eot");
+  src: url("Campton-Bold.eot?#iefix") format("embedded-opentype"), url("Campton-Bold.woff") format("woff"), url("Campton-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal; }
+body {
+  background-color: #3e3b4a; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  margin-top: 70px; }
+  .header-menu-icon {
+    height: 21px; }
+    .header-menu-icon-block {
+      background-color: #898691;
+      width: 22px;
+      height: 3px; }
+  .header-menu-text {
+    font-family: 'Campton Bold', sans-serif;
+    color: #898691;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-left: 10px; }
+  .header-main-text-logo {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0; }
+  .header-main-text-desc {
+    font-family: "Old Standart TT", serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: #898691;
+    margin-bottom: 0px;
+    padding-bottom: 0px; }
+  .header-search-text {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #898691;
+    margin-left: 50%; }
+  .header-search-logo {
+    margin-left: 10px; }
+
+.main-1-content {
+  padding-bottom: 40px;
+  margin: 75px auto 20px;
+  height: 520px;
+  background: url("/img/shape.png") 0 0 no-repeat;
+  background-size: cover; }
+  .main-1-content-text {
+    margin-left: 40px; }
+    .main-1-content-text h3 {
+      font-family: 'Campton Bold', sans-serif;
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #ffc7b0;
+      margin-top: 40px; }
+    .main-1-content-text h1 {
+      font-family: 'Campton Bold', sans-serif;
+      font-size: 72px;
+      text-transform: capitalize;
+      color: #fff;
+      line-height: 75px;
+      margin-bottom: 15px; }
+    .main-1-content-text p {
+      font-family: 'Campton Light', sans-serif;
+      font-size: 36px;
+      line-height: 45px;
+      color: #fff;
+      margin-bottom: 75px; }
+    .main-1-content-text a {
+      display: block;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      padding: 3px 7px;
+      width: 130px;
+      border: 3px solid #ffe18f;
+      font-family: 'Campton Bold', sans-serif; }
+      .main-1-content-text a:hover {
+        color: black;
+        transition: 0.3s;
+        border: 3px solid #ec9422; }
+
+.main-2 .row {
+  height: 485px;
+  margin-bottom: 20px; }
+.main-2-left {
+  background: url(/img/shape-2.png) 0 0 no-repeat;
+  background-size: 97% 100%;
+  padding-bottom: 40px; }
+  .main-2-left-text {
+    margin-left: 40px; }
+    .main-2-left-text h2 {
+      font-family: 'Campton Bold', sans-serif;
+      font-size: 48px;
+      color: #fff;
+      margin-top: 15px;
+      margin-bottom: 15px; }
+    .main-2-left-text h3 {
+      font-family: 'Campton Bold', sans-serif;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #ffc7b0;
+      margin-top: 35px; }
+    .main-2-left-text p {
+      font-family: 'Campton Light', sans-serif;
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 200px;
+      line-height: 28px; }
+    .main-2-left-text a {
+      display: block;
+      font-size: 20px;
+      color: #fff;
+      text-align: center;
+      text-decoration: none;
+      padding: 3px 7px;
+      width: 130px;
+      border: 3px solid #ffe18f;
+      font-family: 'Campton Bold', sans-serif; }
+      .main-2-left-text a:hover {
+        color: black;
+        transition: 0.3s;
+        border: 3px solid #ec9422; }
+.main-2-right {
+  background-color: #eb7b61; }
+  .main-2-right h2 {
+    font-family: "Old Standart TT", serif;
+    font-weight: 700;
+    font-size: 48px;
+    font-stretch: condensed;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    margin-top: 77px; }
+  .main-2-right .par-1 {
+    font-family: 'Campton Light', sans-serif;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.9px; }
+  .main-2-right .btn-email {
+    display: block;
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 20px;
+    color: #ffd9d1;
+    text-align: center;
+    width: 285px;
+    text-decoration: none;
+    margin: 40px auto 20px;
+    border: 3px solid #ffd9d1; }
+  .main-2-right .btn-sub {
+    display: block;
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    width: 285px;
+    text-decoration: none;
+    background-color: #66689c;
+    border: 3px solid #66689c;
+    padding: 10px 87px;
+    margin: 0px auto 30px; }
+  .main-2-right .par-2 {
+    font-family: 'Campton Light', sans-serif;
+    font-style: 14px;
+    color: #fff;
+    text-align: center; }
+
+.main-3 .row {
+  height: 420px;
+  margin-bottom: 55px; }
+.main-3 .main-3-left {
+  background: url(/img/shape-3.png) 0 0 no-repeat;
+  background-size: 95% 100%; }
+  .main-3 .main-3-left h3 {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 14px;
+    color: #ffc7b0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    margin-bottom: 140px; }
+  .main-3 .main-3-left h2 {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 114px; }
+  .main-3 .main-3-left a {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    color: #3d3c4a;
+    background-color: #ffe18e;
+    border: 3px solid #ffe18e;
+    width: 93px;
+    padding: 3px 10px;
+    margin: 0 auto;
+    font-family: 'Campton Bold', sans-serif; }
+.main-3 .main-3-center {
+  background: url(/img/shape-4.png) 0 0 no-repeat;
+  background-size: 95% 100%; }
+  .main-3 .main-3-center h3 {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 14px;
+    color: #ffc7b0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    margin-bottom: 125px; }
+  .main-3 .main-3-center h2 {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 92px; }
+  .main-3 .main-3-center a {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    color: #3d3c4a;
+    background-color: #ffe18e;
+    border: 3px solid #ffe18e;
+    width: 93px;
+    padding: 3px 10px;
+    margin: 0 auto;
+    font-family: 'Campton Bold', sans-serif; }
+.main-3 .main-3-right {
+  background: url(/img/shape-5.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+  padding-left: 77px; }
+  .main-3 .main-3-right h3 {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 14px;
+    color: #ffc7b0;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1.5px;
+    margin-top: 30px;
+    margin-bottom: 13px; }
+  .main-3 .main-3-right h2 {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 15px; }
+  .main-3 .main-3-right p {
+    font-family: 'Campton Bold', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    margin-bottom: 178px; }
+  .main-3 .main-3-right a {
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px 7px;
+    width: 130px;
+    border: 3px solid #ffe18f;
+    font-family: 'Campton Bold', sans-serif; }
+    .main-3 .main-3-right a:hover {
+      color: black;
+      transition: 0.3s;
+      border: 3px solid #ec9422; }
+
+.footer .row {
+  margin-bottom: 30px; }
+.footer-left {
+  font-family: 'Campton Light', sans-serif;
+  font-size: 14px;
+  letter-spacing: 1.1px;
+  color: #898691; }
+.footer-right .twitter-logo {
+  margin-left: 20px; }
+
+/*# sourceMappingURL=main.css.map */
